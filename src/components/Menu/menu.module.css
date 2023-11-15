@@ -1,0 +1,30 @@
+.navegacao {
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.navegacao__list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.navegacao__list li {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--cor-fonte-principal);
+}
+
+.li_destacado {
+    text-decoration: underline;
+}
+
+
+@media (max-width:774px) {
+    .navegacao {
+        height: 72px;
+    }
+}
